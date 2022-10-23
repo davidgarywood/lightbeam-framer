@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		556982F52903AE79007C3C7A /* FrameViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556982F32903AE79007C3C7A /* FrameViewScreen.swift */; };
-		556982F62903AE79007C3C7A /* FrameViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556982F42903AE79007C3C7A /* FrameViewViewModel.swift */; };
+		55129DBA2904F9CD000F550F /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55129DB92904F9CD000F550F /* PhoneView.swift */; };
+		55129DBC290538EC000F550F /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55129DBB290538EC000F550F /* NotchView.swift */; };
+		55129DBE29054274000F550F /* View+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55129DBD29054274000F550F /* View+RoundedCorners.swift */; };
+		55129DC2290542D8000F550F /* NotchFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55129DC1290542D8000F550F /* NotchFrame.swift */; };
+		55D169212903B1D60072714F /* FrameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1691F2903B1D60072714F /* FrameScreen.swift */; };
+		55D169222903B1D60072714F /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D169202903B1D60072714F /* FrameViewModel.swift */; };
+		55D169242903B20C0072714F /* DeviceFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D169232903B20C0072714F /* DeviceFrame.swift */; };
 		55EA33A428F9666300F8ECDD /* FramerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33A328F9666300F8ECDD /* FramerApp.swift */; };
 		55EA33A628F9666300F8ECDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33A528F9666300F8ECDD /* ContentView.swift */; };
 		55EA33A828F9666400F8ECDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EA33A728F9666400F8ECDD /* Assets.xcassets */; };
@@ -16,7 +21,6 @@
 		55EA33B828F9667400F8ECDD /* FramerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33B728F9667400F8ECDD /* FramerUITests.swift */; };
 		55EA33C128F9669D00F8ECDD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33C028F9669D00F8ECDD /* UITesting.swift */; };
 		55EA33C228F9689300F8ECDD /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33C028F9669D00F8ECDD /* UITesting.swift */; };
-		55EA33C428FA4B4A00F8ECDD /* FrameOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA33C328FA4B4A00F8ECDD /* FrameOffsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		556982F32903AE79007C3C7A /* FrameViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewScreen.swift; sourceTree = "<group>"; };
-		556982F42903AE79007C3C7A /* FrameViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewViewModel.swift; sourceTree = "<group>"; };
+		55129DB92904F9CD000F550F /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		55129DBB290538EC000F550F /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
+		55129DBD29054274000F550F /* View+RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorners.swift"; sourceTree = "<group>"; };
+		55129DC1290542D8000F550F /* NotchFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchFrame.swift; sourceTree = "<group>"; };
+		55D1691F2903B1D60072714F /* FrameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameScreen.swift; sourceTree = "<group>"; };
+		55D169202903B1D60072714F /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
+		55D169232903B20C0072714F /* DeviceFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFrame.swift; sourceTree = "<group>"; };
 		55EA33A028F9666300F8ECDD /* Framer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EA33A328F9666300F8ECDD /* FramerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramerApp.swift; sourceTree = "<group>"; };
 		55EA33A528F9666300F8ECDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +49,6 @@
 		55EA33B528F9667400F8ECDD /* FramerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EA33B728F9667400F8ECDD /* FramerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramerUITests.swift; sourceTree = "<group>"; };
 		55EA33C028F9669D00F8ECDD /* UITesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
-		55EA33C328FA4B4A00F8ECDD /* FrameOffsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameOffsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55129DBF29054281000F550F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55129DBD29054274000F550F /* View+RoundedCorners.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55129DC029054288000F550F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D169232903B20C0072714F /* DeviceFrame.swift */,
+				55129DC1290542D8000F550F /* NotchFrame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D1691D2903B1280072714F /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				55D1691F2903B1D60072714F /* FrameScreen.swift */,
+				55D169202903B1D60072714F /* FrameViewModel.swift */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		55D1691E2903B12D0072714F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				55D1691D2903B1280072714F /* Frame */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		55EA339728F9666300F8ECDD = {
 			isa = PBXGroup;
 			children = (
@@ -83,10 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				55EA33C028F9669D00F8ECDD /* UITesting.swift */,
-				55EA33C328FA4B4A00F8ECDD /* FrameOffsets.swift */,
 				55EA33A328F9666300F8ECDD /* FramerApp.swift */,
-				556982F32903AE79007C3C7A /* FrameViewScreen.swift */,
-				556982F42903AE79007C3C7A /* FrameViewViewModel.swift */,
+				55129DC029054288000F550F /* Model */,
+				55129DBF29054281000F550F /* Extensions */,
+				55129DBB290538EC000F550F /* NotchView.swift */,
+				55129DB92904F9CD000F550F /* PhoneView.swift */,
+				55D1691E2903B12D0072714F /* Screens */,
 				55EA33A528F9666300F8ECDD /* ContentView.swift */,
 				55EA33A728F9666400F8ECDD /* Assets.xcassets */,
 				55EA33A928F9666400F8ECDD /* Preview Content */,
@@ -210,11 +254,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55129DBA2904F9CD000F550F /* PhoneView.swift in Sources */,
 				55EA33C128F9669D00F8ECDD /* UITesting.swift in Sources */,
-				556982F62903AE79007C3C7A /* FrameViewViewModel.swift in Sources */,
-				556982F52903AE79007C3C7A /* FrameViewScreen.swift in Sources */,
+				55129DBC290538EC000F550F /* NotchView.swift in Sources */,
+				55129DBE29054274000F550F /* View+RoundedCorners.swift in Sources */,
 				55EA33A628F9666300F8ECDD /* ContentView.swift in Sources */,
-				55EA33C428FA4B4A00F8ECDD /* FrameOffsets.swift in Sources */,
+				55D169212903B1D60072714F /* FrameScreen.swift in Sources */,
+				55D169242903B20C0072714F /* DeviceFrame.swift in Sources */,
+				55D169222903B1D60072714F /* FrameViewModel.swift in Sources */,
+				55129DC2290542D8000F550F /* NotchFrame.swift in Sources */,
 				55EA33A428F9666300F8ECDD /* FramerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +417,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +447,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
